@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/app-gameloft/static/css/main.33825abd.chunk.css",
+    "main.js": "/app-gameloft/static/js/main.2c7b666c.chunk.js",
+    "main.js.map": "/app-gameloft/static/js/main.2c7b666c.chunk.js.map",
+    "runtime-main.js": "/app-gameloft/static/js/runtime-main.21347287.js",
+    "runtime-main.js.map": "/app-gameloft/static/js/runtime-main.21347287.js.map",
+    "static/js/2.6a400b94.chunk.js": "/app-gameloft/static/js/2.6a400b94.chunk.js",
+    "static/js/2.6a400b94.chunk.js.map": "/app-gameloft/static/js/2.6a400b94.chunk.js.map",
+    "static/js/3.101aee68.chunk.js": "/app-gameloft/static/js/3.101aee68.chunk.js",
+    "static/js/3.101aee68.chunk.js.map": "/app-gameloft/static/js/3.101aee68.chunk.js.map",
+    "index.html": "/app-gameloft/index.html",
+    "static/css/main.33825abd.chunk.css.map": "/app-gameloft/static/css/main.33825abd.chunk.css.map",
+    "static/js/2.6a400b94.chunk.js.LICENSE.txt": "/app-gameloft/static/js/2.6a400b94.chunk.js.LICENSE.txt",
+    "static/media/Minion.a589c9b3.png": "/app-gameloft/static/media/Minion.a589c9b3.png",
+    "static/media/arrowLeft.4a3844be.svg": "/app-gameloft/static/media/arrowLeft.4a3844be.svg",
+    "static/media/arrowRight.973190fb.svg": "/app-gameloft/static/media/arrowRight.973190fb.svg",
+    "static/media/box1.10d4d61a.png": "/app-gameloft/static/media/box1.10d4d61a.png",
+    "static/media/car1.38bb79ce.png": "/app-gameloft/static/media/car1.38bb79ce.png",
+    "static/media/car2.11f30c71.png": "/app-gameloft/static/media/car2.11f30c71.png",
+    "static/media/car3.d4bfd6a2.png": "/app-gameloft/static/media/car3.d4bfd6a2.png",
+    "static/media/car4.c07ecc17.png": "/app-gameloft/static/media/car4.c07ecc17.png",
+    "static/media/car5.ac56aac9.png": "/app-gameloft/static/media/car5.ac56aac9.png",
+    "static/media/car6.14dd4991.png": "/app-gameloft/static/media/car6.14dd4991.png",
+    "static/media/exclusive-image.7a13b634.png": "/app-gameloft/static/media/exclusive-image.7a13b634.png",
+    "static/media/footer-logo.465784ea.svg": "/app-gameloft/static/media/footer-logo.465784ea.svg",
+    "static/media/footerFB.21e2f597.svg": "/app-gameloft/static/media/footerFB.21e2f597.svg",
+    "static/media/footerFBm.55344da3.svg": "/app-gameloft/static/media/footerFBm.55344da3.svg",
+    "static/media/nintendo.e0d8a841.png": "/app-gameloft/static/media/nintendo.e0d8a841.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.21347287.js",
+    "static/js/2.6a400b94.chunk.js",
+    "static/css/main.33825abd.chunk.css",
+    "static/js/main.2c7b666c.chunk.js"
+  ]
+}
