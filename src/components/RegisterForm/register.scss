@@ -1,0 +1,119 @@
+.register{
+    height: 100%;
+    background: #EBF6FF;
+    &_padding{
+        height: 100%;
+        padding: 0 50px;
+
+        display: flex;
+    }
+    &_form{
+        &_title{
+            margin-bottom: 0;
+            font-size: 20px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            line-height: 1.5;
+
+            color: #2699FB;
+        }
+        &_text1{
+            display: block;
+            font-size: 14px;
+            font-weight: 400;
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.2;
+
+            color: #2699FB;
+        }
+        &_text2{
+            margin-bottom: 1rem;
+            display: block;
+            font-size: 14px;
+            font-weight: 400;
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.2;
+
+            color: #2699FB;
+        }
+        &_name{
+            font-size: 12px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+
+            background:#EBF6FF;
+            color: #2699FB;
+
+            border: 1px solid #2699FB;
+        }
+        &_select_position{
+            position: relative;
+            &_icon{
+                position: absolute;
+                top: 8px;
+                right: 10px;
+                font-size: 14px;
+                color: #2699FB;
+            }
+        }
+        &_select{
+          
+            font-size: 12px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+
+            background:#EBF6FF;
+            color: #2699FB;
+
+            border: 1px solid #2699FB;
+       
+         
+        }
+        &_labelcheck{
+            font-size: 12px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+
+            color: #2699FB;
+
+        }
+        &_center_btnButton{
+            text-align: center;
+        }
+        &_btnButton{
+            width: 100px;
+            color: #2699FB;
+             background: #EBF6FF;
+            border: 1px solid #2699FB;
+            &:hover{
+                color: #2699FB;
+            }
+        }
+    }
+
+}
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #2699FB;
+}
+@media only screen and (max-width: 769px) {
+    .register{
+        height: 110%;
+
+        &_img{
+            display: none;
+        }
+        &_form{
+           &_title{
+               font-size: 50px;
+               line-height: 1.2;
+           }
+           &_text1{
+            font-size: 20px;
+           }
+           &_text2{
+            font-size: 20px;
+            margin-bottom: 50px;
+           }
+        }
+    }
+}

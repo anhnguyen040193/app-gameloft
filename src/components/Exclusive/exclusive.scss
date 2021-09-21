@@ -1,0 +1,94 @@
+.exclusive{
+    height: 100%;
+    &_padding{
+        height: 100%;
+        padding: 0 50px;
+        display: flex;
+        padding-top: 70px;
+        overflow: hidden;
+    }
+    &_title{
+        font-size: 30px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        line-height: 1.5;
+    
+        color: #2699FB;
+    }
+    &_text{
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        line-height: 1.5;
+    
+        color: #2699FB;
+
+    }
+    &_content{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        &_item{
+            position: relative;
+            margin-right: 20px;
+            transition: all 0.35s ease-in-out 0s;
+            &_iconDownload{
+                position: absolute;
+                top: 5px;
+                right: 10px;
+                cursor: pointer;
+            }
+        }
+    }
+    &_FirstRender{
+        transition: all 0.35s ease-in-out 0s;
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    &_none{
+        transition: all 0.35s ease-in-out 0s;
+        transform: translateY(50px);
+        opacity: 0.5;
+    }
+}
+@media only screen and (min-width: 769px) {
+    .exclusive{
+        &_mobile{
+            display: none;
+        }
+    
+    }
+   
+}
+
+@media only screen and (max-width: 769px) {
+    .exclusive{
+        &_desk{
+            display: none;
+        }
+        &_mobile{
+            display: flex;
+        }
+        &_padding{
+            padding: 0 25px;
+        }
+        &_title{
+            font-size: 25px;
+        }
+        &_text{
+            font-size: 20px;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        &_content_item{
+            transform: translateX(0px);
+            & .exclusive_content_item_img{
+                width: 320px;
+                height: 180px;
+            }
+        }
+    }
+}

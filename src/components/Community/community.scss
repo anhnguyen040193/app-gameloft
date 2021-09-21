@@ -1,0 +1,283 @@
+.community{
+    height: 100%;
+    &_padding{
+        height: 100%;
+        padding: 0 50px;
+        padding-top: 70px;
+        display: flex;
+        overflow: hidden;
+    }
+    &_Live{
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+        align-items: center;
+        &_box{
+            display: flex;
+            flex-flow: row;
+            justify-content: center;
+            align-items: center;
+        }
+        &_title{
+            margin-bottom: 0;
+            font-size: 30px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            line-height: 1.5;
+
+            color: #2699FB;
+        }
+        &_text1{
+            margin-top: 1rem; 
+            font-size: 15px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            line-height: 1.5;
+
+            color: #2699FB;
+        }
+        &_circle{
+            transition: all 0.35s ease-in-out 0s;
+            margin-right: 5px;
+            &_border{
+                border: 2px solid #2699FB;
+                border-radius: 50%;
+                padding: 5px;
+            }
+   
+            & img{
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+            }
+          
+        }
+        &_arrowLeft, &_arrowRight{
+            cursor: pointer;
+        }
+        &_arrowLeft{
+            margin-right: 20px;
+        }
+        &_arrowRight{
+        margin-left: 20px;
+        }
+    }
+    &_search{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        &_title{
+            margin-bottom: 0;
+            font-size: 20px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            line-height: 1.5;
+
+            color: #2699FB;
+        }
+        &_title2{
+            display: flex;
+            align-items: center;
+            &_icon{
+                & img{
+                    height: 40px;
+                    width: 40px;
+                    margin-right: 10px;
+                }
+            }
+            &_inputSearch{
+                position: relative;
+                height: 40px;
+                & input{
+                    width: 100%;
+                    height: 100%;
+
+                    border: 1px solid #2699FB;
+                    border-radius: 4px;
+
+                    color: #2699FB;
+                    &:focus{
+                        border: 1px solid #2699FB;
+                        border-radius: 4px;
+                    }
+                    &::placeholder{
+                        font-style: italic;
+                        color: #2699FB;
+                    }
+                }
+                & i{
+                    position: absolute;
+                    top: 13px;
+                    right: 10px;
+                    color: #2699FB;
+                }
+            }
+        }
+    }
+    &_slider{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+ 
+        & div {
+            transform: translateX(808px);
+            transition: all 0.35s ease-in-out 0s;
+        }
+        & div img{
+            width: 331px;
+            height: 400px;
+            padding: 0 5px;
+        }
+    }
+    &_pagination{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        margin: 30px 0 10px 0;
+        &_number{
+            margin: 0 10px;
+            
+            font-size: 20px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            line-height: 1.5;
+
+            color: #2699FB;
+        }
+    }
+}
+@media only screen and (min-width: 749px){
+    .community{
+        &_desk{
+            display: flex;
+        }
+        &_desk1{
+            display: block;
+        }
+        &_mobile{
+            display: none;
+        }
+        &_mobile1{
+            display: none;
+        }
+        &_mobile1_more{
+           display: none;
+        }
+    }
+}
+@media only screen and (max-width: 749px) {
+    .community{
+        position: relative;
+        margin-top: 28px;
+        transition: all 0.35s ease-in-out 0s;
+        &_150{
+            
+            height: 205%;
+        }
+        &_500{
+            height: 515%;
+        }
+        &_desk{
+            display: none;
+        }
+        &_desk1{
+            display: none;
+        }
+        &_mobile{
+            display: flex;
+            margin-bottom: 12px;
+        }
+        &_mobile1{
+            display: block;
+            position: relative;
+            height: 500%;
+            &_more{
+                display: block;
+                position: absolute;
+                bottom: 20px;
+                left: 0;
+               width: 100%;
+               text-align: center;
+
+              
+
+               
+                & button{
+                    width: 160px;
+                    height: 48px;
+                    border:1px solid #2699FB;
+                    border-radius: 4px;
+                    box-shadow: 0px -65px 76px 106px white;
+                    color:#2699FB;
+                   background: white;
+                }
+            
+            }
+            &_less{
+                display: block;
+                position: absolute;
+                bottom: 30px;
+                left: 0;
+                width: 160px;
+                height: 48px;
+                width: 100%;
+                text-align: center;
+
+               & button{
+                width: 160px;
+                height: 48px;
+                
+                border:1px solid #2699FB;
+                border-radius: 4px;
+
+                color:#2699FB;
+               background: white;
+            }
+
+            
+            }
+        }
+        &_padding{
+            padding: 0 25px;
+        }
+        .community_slider{
+            flex-flow: column;
+            & div img{
+                height: 380px;
+                margin: 15px;
+            }
+        }
+        &_Live{
+            margin-bottom: 25px;
+            &_title{
+                margin-bottom: 1.5rem;
+                font-size: 25px;
+            }
+            &_text1{
+                display: none;
+            }
+            &_box{
+                width: 400px;
+                overflow: hidden;
+            }
+            &_circle{
+                transform: translateX(220px);
+            }
+        }
+        &_search_title2_inputSearch i{
+            right: 30px;
+        }
+        &_search_title2_inputSearch input{
+            padding: 0 25px;
+        }
+        &_slider{
+            & div {
+                transform: unset;
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+    &_padding{
+        padding: 0 50px;
+        background: #A8D6FD;
+    }
+    &_logo{
+        
+    }
+    &_menu{
+      
+        text-align: right;
+        & img{
+            width: 30px;
+        }
+    }
+}
+
+@media only screen and (max-width: 749px) {
+    .header{
+        position: unset;
+        width: 101%;
+        &_padding{
+            padding: 0 15px;
+        }
+    }
+   
+}

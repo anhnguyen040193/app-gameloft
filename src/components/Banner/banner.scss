@@ -1,0 +1,118 @@
+.banner{
+    height: 100%;
+   background: #2699FB;
+    &_padding{
+        height: 92%;
+        padding: 0 50px;
+    }
+    &_image_moutain{
+        display: flex;
+        justify-content: center;
+    }
+    &_left{
+        margin-bottom: 1.5rem;
+        &_title{
+            font-size: 30px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            color: white;
+        }
+        &_rating{
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            & p{
+                padding-right: 10px;
+
+                font-size: 12px;
+                font-family: 'Roboto', sans-serif;
+                font-weight: bold;
+                line-height: 12px;
+
+                color: white;
+              
+                border-right: 1px solid white;
+                
+            }
+            & ul{
+                margin-left: -15px;
+
+                display: flex;
+                flex-flow: row nowrap;
+                align-items: center;
+
+                list-style-type: none;
+            }
+       
+        }
+        &_descript{
+            font-size: 14px;
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.2;
+
+            color: white;
+
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+    }
+    &_footer{
+        height: 8%;
+        padding: 0 50px;
+        background: #A8D6FD;
+        &_text{
+            font-size: 20px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            line-height: 12px;
+
+            color: #38A1FB;
+        }
+        &_logo{
+            display: flex;
+            flex-flow: row ;
+            justify-content: center;
+            align-items: center;
+            & div img{
+                height: 40px;
+                margin-right: 5px;
+            }
+        }
+    }
+   
+}
+
+@media only screen and (max-width: 749px) {
+    .banner{
+        &_padding{
+            height: 75%;
+            padding: 0 25px;
+        }
+        &_image_moutain img{
+           width: 154px;
+           height: 81px;
+        }
+        &_left_title{
+            width: 30%;
+        }
+        &_footer{
+            height: 25%;
+            padding: 0 25px;
+            &_text{
+                font-size: 25px;
+                text-align: center;
+            }
+            &_logo{
+                flex-flow: row wrap;
+                justify-content: flex-start;
+                & div img{
+                    height: 49px;
+                    width: 150px;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+}
