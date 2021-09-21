@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/app-gameloft/static/css/main.33825abd.chunk.css",
-    "main.js": "/app-gameloft/static/js/main.2c7b666c.chunk.js",
-    "main.js.map": "/app-gameloft/static/js/main.2c7b666c.chunk.js.map",
+    "main.css": "/app-gameloft/static/css/main.1b005f4e.chunk.css",
+    "main.js": "/app-gameloft/static/js/main.1e656e8a.chunk.js",
+    "main.js.map": "/app-gameloft/static/js/main.1e656e8a.chunk.js.map",
     "runtime-main.js": "/app-gameloft/static/js/runtime-main.21347287.js",
     "runtime-main.js.map": "/app-gameloft/static/js/runtime-main.21347287.js.map",
     "static/js/2.6a400b94.chunk.js": "/app-gameloft/static/js/2.6a400b94.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.101aee68.chunk.js": "/app-gameloft/static/js/3.101aee68.chunk.js",
     "static/js/3.101aee68.chunk.js.map": "/app-gameloft/static/js/3.101aee68.chunk.js.map",
     "index.html": "/app-gameloft/index.html",
-    "static/css/main.33825abd.chunk.css.map": "/app-gameloft/static/css/main.33825abd.chunk.css.map",
+    "static/css/main.1b005f4e.chunk.css.map": "/app-gameloft/static/css/main.1b005f4e.chunk.css.map",
     "static/js/2.6a400b94.chunk.js.LICENSE.txt": "/app-gameloft/static/js/2.6a400b94.chunk.js.LICENSE.txt",
     "static/media/Minion.a589c9b3.png": "/app-gameloft/static/media/Minion.a589c9b3.png",
     "static/media/arrowLeft.4a3844be.svg": "/app-gameloft/static/media/arrowLeft.4a3844be.svg",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.21347287.js",
     "static/js/2.6a400b94.chunk.js",
-    "static/css/main.33825abd.chunk.css",
-    "static/js/main.2c7b666c.chunk.js"
+    "static/css/main.1b005f4e.chunk.css",
+    "static/js/main.1e656e8a.chunk.js"
   ]
 }
