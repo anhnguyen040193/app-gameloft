@@ -95,14 +95,24 @@
 .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #2699FB;
 }
+@media only screen and (max-width: 900px){
+    .register{
+         &_img{
+        display: none;
+       
+        }
+        &_form{
+            width: 80%;
+        }
+    }
+}
 @media only screen and (max-width: 769px) {
     .register{
         height: 110%;
 
-        &_img{
-            display: none;
-        }
+      
         &_form{
+            width: 100%;
            &_title{
                font-size: 50px;
                line-height: 1.2;

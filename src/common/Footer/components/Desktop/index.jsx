@@ -12,7 +12,9 @@ FooterDesktop.propTypes = {};
 function FooterDesktop(props) {
   const [check, SetCheck] = useState(false);
   useEffect(() => {
-    SetCheck(true);
+    setTimeout(() => {
+      SetCheck(true);
+    }, 100);
   }, []);
   return (
     <>
